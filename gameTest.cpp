@@ -20,10 +20,7 @@ int main(int argc, char *argv[]) {
 	 getmaxyx(stdscr, max_y, max_x);
 
 	 clear();
-	 mvprintw(y, x, "Your Mum");
-	 refresh();
-	 clear();
-	 mvprintw(y, x, "Your Mum");
+	 mvprintw(y, x, "██");
 	 refresh();
 
 	 usleep(DELAY);
